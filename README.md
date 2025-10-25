@@ -16,14 +16,14 @@ It includes:
 
 | Component             | Status                              |
 | --------------------- | ----------------------------------- |
-| Ubuntu Host           | ✅                                   |
-| Docker Installed      | ✅ Verified using `docker --version` |
-| X11 working           | ✅ Verified using `xeyes`            |
+| Ubuntu Host           |                                    |
+| Docker Installed      |  Verified using `docker --version` |
+| X11 working           |  Verified using `xeyes`            |
 | GPU Access (optional) | Supported via `/dev/dri`            |
 
 ---
 
-## ✅ Step-by-Step Commands Used
+##  Step-by-Step Commands Used
 
 ### 1️ Check Docker installation
 
@@ -83,7 +83,7 @@ Result:
 
 ---
 
-## 🖥️ Launch **OpenROAD GUI**
+##  Launch **OpenROAD GUI**
 
  
 ```bash
@@ -119,7 +119,7 @@ But link gave:
 404 Not Found
 ```
 
-So Docker image install remained the successful method ✅
+So Docker image install remained the successful method 
 
 ---
 
@@ -145,8 +145,8 @@ docker run -it --rm \
 
 
 If you'd like, I can also:
-✅ Add a script `run_openroad.sh` to automate this
-✅ Add images/screenshots of GUI in README
-✅ Add steps for running designs inside OpenROAD
+ Add a script `run_openroad.sh` to automate this
+ Add images/screenshots of GUI in README
+ Add steps for running designs inside OpenROAD
 
 Would you like me to push this README to your GitHub repo format with badges, table of contents, and credits?
