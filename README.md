@@ -144,9 +144,3 @@ docker run -it --rm \
 
 
 
-If you'd like, I can also:
- Add a script `run_openroad.sh` to automate this
- Add images/screenshots of GUI in README
- Add steps for running designs inside OpenROAD
-
-Would you like me to push this README to your GitHub repo format with badges, table of contents, and credits?
