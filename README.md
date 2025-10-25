@@ -68,7 +68,7 @@ xeyes &
 If xeyes pops up ➜ GUI is working 
 
 ---
-
+![image](https://github.com/manohargumma/OpenROAD-Installation-guide--BUILD-With-Docker/blob/817fbe06b790f7b90fd3aaae57ffa95c94ec9115/img/Screenshot%20from%202025-10-25%2021-34-14.png)
 ##  Locate OpenROAD inside container
 
 ```bash
