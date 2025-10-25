@@ -58,7 +58,7 @@ docker run -it --rm \
 This pulls the image automatically if missing.
 
 ---
-
+![image](https://github.com/manohargumma/OpenROAD-Installation-guide--BUILD-With-Docker/blob/af65197d3e4e0145c0f15722f8a567e6af47ed30/img/Screenshot%20from%202025-10-25%2021-33-56.png)
 ##  Test GUI inside Docker
 
 ```bash
