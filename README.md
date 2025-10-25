@@ -1,5 +1,9 @@
 # OpenROAD-Installation-guide--BUILD-With-Docker
 
+![Tool-OpenROAD](https://img.shields.io/badge/Tool-OpenROAD-purple)
+![Flow-OpenROAD_Flow](https://img.shields.io/badge/Flow-OpenROAD_Flow-blueviolet)
+![EDA-PDA](https://img.shields.io/badge/EDA-PDA-yellowgreen)
+![License-BSD-3](https://img.shields.io/badge/License-BSD--3-lightgrey)
 
 This repository documents all the exact commands and steps used to install and run **OpenROAD with GUI** on Ubuntu using **Docker** and **X11 forwarding**.
 
