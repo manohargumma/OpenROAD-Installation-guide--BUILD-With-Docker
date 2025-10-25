@@ -1,11 +1,5 @@
 # OpenROAD-Installation-guide--BUILD-With-Docker
 
-Absolutely. Here is your complete **README.md** file, cleaned up, polished, and ready to drop into your repo.
-Everything is written in the order **you actually performed the steps**, including GUI troubleshooting and solutions ✅
-
----
-
-# ✅ README — OpenROAD Installation & GUI on Ubuntu (Docker Method)
 
 This repository documents all the exact commands and steps used to install and run **OpenROAD with GUI** on Ubuntu using **Docker** and **X11 forwarding**.
 
@@ -18,7 +12,7 @@ It includes:
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 | Component             | Status                              |
 | --------------------- | ----------------------------------- |
@@ -31,13 +25,13 @@ It includes:
 
 ## ✅ Step-by-Step Commands Used
 
-### 1️⃣ Check Docker installation
+### 1️ Check Docker installation
 
 ```bash
 docker --version
 ```
 
-### 2️⃣ Allow Docker to access the host X11 display
+###  Allow Docker to access the host X11 display
 
 ```bash
 xhost +local:docker
@@ -49,7 +43,7 @@ Output:
 non-network local connections being added to access control list
 ```
 
-### 3️⃣ Run Docker container with GPU + GUI support
+###  Run Docker container with GPU + GUI support
 
 ```bash
 docker run -it --rm \
@@ -65,17 +59,17 @@ This pulls the image automatically if missing.
 
 ---
 
-## 🧪 Test GUI inside Docker
+##  Test GUI inside Docker
 
 ```bash
 xeyes &
 ```
 
-If xeyes pops up ➜ GUI is working ✅
+If xeyes pops up ➜ GUI is working 
 
 ---
 
-## 🎯 Locate OpenROAD inside container
+##  Locate OpenROAD inside container
 
 ```bash
 which openroad
@@ -91,27 +85,16 @@ Result:
 
 ## 🖥️ Launch **OpenROAD GUI**
 
-❌ First attempt inside prompt:
-
-```
-openroad>
-openroad> gui
-invalid command name "gui"
-```
-
-Reason: GUI is a **startup flag**, NOT a runtime command.
-
-✅ Correct way:
-
+ 
 ```bash
 /usr/bin/openroad -gui &
 ```
 
-This successfully starts GUI mode 🎉
+This successfully starts GUI mode 
 
 ---
 
-## 🔍 Version Info
+##  Version Info
 
 From `openroad` output:
 
@@ -122,7 +105,7 @@ Features: +Charts +GPU +GUI +Python
 
 ---
 
-## ⚠️ Prebuilt .deb Attempt (FAILED)
+##  Prebuilt .deb Attempt (FAILED)
 
 You tried downloading a prebuilt binary:
 
@@ -140,7 +123,7 @@ So Docker image install remained the successful method ✅
 
 ---
 
-## ✅ Final Working Command Summary
+## Final Working Command Summary
 
 ```bash
 xhost +local:docker
@@ -158,24 +141,8 @@ docker run -it --rm \
 
 ---
 
-## 📌 Notes & Tips
 
-| Issue                            | Fix                                                                |
-| -------------------------------- | ------------------------------------------------------------------ |
-| Docker: invalid reference format | Fixed formatted `docker run` command (quotes + no inline comments) |
-| GUI not launching                | Must use `-gui` flag at launch                                     |
-| No X display                     | Ensure `xhost +local:docker` run before container                  |
 
----
-
-## ✅ You Achieved
-
-✔ OpenROAD installed
-✔ GUI functional inside Docker
-✔ GPU acceleration enabled
-✔ Display forwarding verified
-
----
 
 If you'd like, I can also:
 ✅ Add a script `run_openroad.sh` to automate this
