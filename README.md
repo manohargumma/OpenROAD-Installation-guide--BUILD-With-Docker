@@ -8,7 +8,7 @@ It includes:
 * Docker setup
 * Running OpenROAD inside container
 * Enabling GUI
-* Troubleshooting and fixes you discovered
+* Troubleshooting and fixes
 
 ---
 
@@ -16,7 +16,7 @@ It includes:
 
 | Component             | Status                              |
 | --------------------- | ----------------------------------- |
-| Ubuntu Host           |                                    |
+| Ubuntu Host           |   24.04                                 |
 | Docker Installed      |  Verified using `docker --version` |
 | X11 working           |  Verified using `xeyes`            |
 | GPU Access (optional) | Supported via `/dev/dri`            |
