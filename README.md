@@ -60,6 +60,7 @@ This pulls the image automatically if missing.
 
 ---
 ![image](https://github.com/manohargumma/OpenROAD-Installation-guide--BUILD-With-Docker/blob/af65197d3e4e0145c0f15722f8a567e6af47ed30/img/Screenshot%20from%202025-10-25%2021-33-56.png)
+![image](https://github.com/manohargumma/OpenROAD-Installation-guide--BUILD-With-Docker/blob/f1e46b684263062aadd1acbbad531440a869fa08/img/Screenshot%20from%202025-10-25%2021-35-36.png)
 ##  Test GUI inside Docker
 
 ```bash
@@ -69,7 +70,7 @@ xeyes &
 If xeyes pops up ➜ GUI is working 
 
 ---
-![image](https://github.com/manohargumma/OpenROAD-Installation-guide--BUILD-With-Docker/blob/817fbe06b790f7b90fd3aaae57ffa95c94ec9115/img/Screenshot%20from%202025-10-25%2021-34-14.png)
+![image](https://github.com/manohargumma/OpenROAD-Installation-guide--BUILD-With-Docker/blob/f1e46b684263062aadd1acbbad531440a869fa08/img/Screenshot%20from%202025-10-25%2021-34-41.png)
 ##  Locate OpenROAD inside container
 
 ```bash
@@ -83,7 +84,8 @@ Result:
 ```
 
 ---
-
+![image](https://github.com/manohargumma/OpenROAD-Installation-guide--BUILD-With-Docker/blob/f1e46b684263062aadd1acbbad531440a869fa08/img/Screenshot%20from%202025-10-25%2021-35-47.png)
+![image](https://github.com/manohargumma/OpenROAD-Installation-guide--BUILD-With-Docker/blob/f1e46b684263062aadd1acbbad531440a869fa08/img/Screenshot%20from%202025-10-25%2015-38-54.png)
 ##  Launch **OpenROAD GUI**
 
  
@@ -94,6 +96,7 @@ Result:
 This successfully starts GUI mode 
 
 ---
+![image](https://github.com/manohargumma/OpenROAD-Installation-guide--BUILD-With-Docker/blob/f1e46b684263062aadd1acbbad531440a869fa08/img/Screenshot%20from%202025-10-25%2018-42-14.png)
 
 ##  Version Info
 
@@ -105,7 +108,7 @@ Features: +Charts +GPU +GUI +Python
 ```
 
 ---
-
+![image](https://github.com/manohargumma/OpenROAD-Installation-guide--BUILD-With-Docker/blob/f1e46b684263062aadd1acbbad531440a869fa08/img/Screenshot%20from%202025-10-25%2018-42-23.png)
 ##  Prebuilt .deb Attempt (FAILED)
 
 You tried downloading a prebuilt binary:
@@ -141,6 +144,7 @@ docker run -it --rm \
 ```
 
 ---
+![image](https://github.com/manohargumma/OpenROAD-Installation-guide--BUILD-With-Docker/blob/f1e46b684263062aadd1acbbad531440a869fa08/img/Screenshot%20from%202025-10-25%2021-02-48.png)
 
 
 
